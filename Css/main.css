@@ -1,0 +1,277 @@
+.header {
+  width: 100%;
+  background: #f8e1db;
+  height: 100px;
+}
+.header .header__container {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.header .header__container .header__icon {
+  background: #E76F51;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  line-height: 40px;
+  top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.header .header__container .header__icon h1 {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.header .header__container .header__menu {
+  font-size: 18px;
+  line-height: 50px;
+  cursor: pointer;
+  top: 50px;
+  position: absolute;
+  color: #000;
+  display: block;
+  text-transform: capitalize;
+}
+.header .header__container .header__menu li {
+  margin-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+}
+.carousel img {
+  width: 100%;
+  height: 70vh;
+}
+.carousel .carousel__explorer {
+  padding-top: 70px;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.carousel .carousel__explorer img {
+  width: 80px;
+  height: 30%;
+}
+.carousel .carousel__explorer h1 {
+  text-transform: capitalize;
+  color: #5f5e5e;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.activities {
+  width: 100%;
+  height: 70vh;
+}
+.activities .container {
+  margin-top: 50px;
+  position: relative;
+}
+.activities .container .container__items {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+  float: left;
+  margin: 0 2.5%;
+}
+.activities .container .container__items .activities__details {
+  padding: 30px;
+}
+.activities .container .container__items .activities__details .img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.activities .container .container__items .activities__details .img img {
+  border-radius: 20px;
+  width: 100%;
+}
+.activities .container .container__items .activities__details .img i {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 30px;
+  height: 30px;
+  background: rgba(240, 240, 240, 0.7);
+  border-radius: 10px;
+  opacity: 1;
+  color: #E76F51;
+  line-height: 30px;
+  text-align: center;
+}
+.activities .container .container__items .activities__details h1 {
+  margin: 20px 0;
+  font-size: 22px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.activities .container .container__items .activities__details p {
+  text-align: center;
+  color: #5f5e5e;
+  margin-bottom: 30px;
+}
+.activities .container .container__items .activities__details .button {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  height: 40px;
+  line-height: 40px;
+  color: #5f5e5e;
+  border-radius: 30px;
+  background: #c9c8c7;
+  font-size: 15px;
+  cursor: pointer;
+}
+.activities .container .buttonview {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: auto;
+  border: 1px solid #E76F51;
+  text-align: center;
+  cursor: pointer;
+  color: #E76F51;
+  padding: 15px 60px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  transform: translate(-50%, -50%);
+}
+
+.download {
+  width: 100%;
+  background: #f8e1db;
+  height: 356px;
+  margin-bottom: 100px;
+}
+.download .download__container {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.download .download__container .image {
+  background-image: url(./../Image/mask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 50%;
+  float: left;
+}
+.download .download__container .image img {
+  margin-left: 10%;
+}
+.download .download__container .download__items {
+  width: 50%;
+  padding-right: 10%;
+  float: left;
+  margin-top: 50px;
+  color: #5f5e5e;
+}
+.download .download__container .download__items h1 {
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.download .download__container .download__items .items__app {
+  width: 50%;
+  float: left;
+}
+.download .download__container .download__items .items__app h1 {
+  font-size: 22px;
+}
+.download .download__container .download__items .items__app img {
+  width: 49%;
+  cursor: pointer;
+}
+.download .download__container .download__items .items__follow {
+  width: 50%;
+  float: left;
+}
+.download .download__container .download__items .items__follow h1 {
+  font-size: 22px;
+}
+.download .download__container .download__items .items__follow i {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #E76F51;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  background: #f8e1db;
+  border-radius: 100px 100px 0 0;
+}
+.footer .footer__container {
+  width: 90%;
+  padding-top: 80px;
+  margin: auto;
+  height: 100%;
+}
+.footer .footer__container .footer__items {
+  width: 40%;
+  font-size: 18px;
+  float: left;
+}
+.footer .footer__container .footer__items h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.footer .footer__container .footer__items p {
+  line-height: 30px;
+  width: 90%;
+}
+.footer .footer__container .footer__list__details {
+  width: 100%;
+  height: 80%;
+}
+.footer .footer__container .footer__list__details .footer__details {
+  width: 20%;
+  float: left;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+}
+.footer .footer__container .footer__list__details .footer__details h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.footer .footer__container .footer__list__details .footer__details .details {
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.footer .footer__container .footer__copyright {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.5 ease;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #faf4f2;
+}
+
+/*# sourceMappingURL=main.css.map */

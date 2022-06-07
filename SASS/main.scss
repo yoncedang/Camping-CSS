@@ -1,0 +1,22 @@
+@import "header";
+@import "carousel";
+@import "activities";
+@import "download";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // text-transform: capitalize;
+    transition: all .5 ease;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: #faf4f2;
+}

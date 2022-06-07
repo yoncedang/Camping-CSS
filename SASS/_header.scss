@@ -1,0 +1,52 @@
+@import "variables";
+
+.header{
+    width: 100%;
+    background: $maincolor;
+    height: 100px;
+    .header__container{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        // background: #fff;
+        position: relative;
+        .header__icon{
+            background: $iconcolor;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            line-height: 40px;
+            // margin-top: 10px;
+            top: 10px;
+            display: inline-block;
+            cursor: pointer;
+            h1{
+                
+                font-size: 30px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: #fff;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .header__menu{
+            font-size: 18px;
+            line-height: 50px;
+            cursor: pointer;
+            // margin-top: 50px;
+            top: 50px;
+            position: absolute;
+            color: #000;
+            display: block;
+            text-transform: capitalize;
+            li{
+                margin-right: 50px;
+                cursor: pointer;
+                display: inline-block;
+            }
+        }   
+    }
+}

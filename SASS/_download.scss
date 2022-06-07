@@ -1,0 +1,64 @@
+@import "variables";
+
+
+.download{
+    width: 100%;
+    background: $maincolor;
+    height: 356px;
+    // z-index: 100;
+    margin-bottom: 100px;
+    .download__container{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        .image{
+            background-image: url(./../Image/mask.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:auto;
+            width: 50%;
+            float: left;
+            img{
+                // width: 100%;
+                margin-left: 10%;
+            }
+        }
+        .download__items{
+            width: 50%;
+            padding-right: 10%;
+            float: left;
+            margin-top: 50px;
+            color: $text_color;
+            h1{
+                text-transform: capitalize;
+                margin: 20px 0;
+            }
+            .items__app{
+                width: 50%;
+                float: left;
+                h1{
+                    font-size: 22px;
+                }
+                img{
+                    width: calc(100% - 51%);
+                    cursor: pointer;
+                }
+            }
+            .items__follow{
+                // padding-left: 10px;
+                width: 50%;
+                float: left;
+                h1{
+                    font-size: 22px;
+                }
+
+                i{
+                    font-size: 25px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    color: $iconcolor;
+                }
+            }
+        }
+    }
+}
